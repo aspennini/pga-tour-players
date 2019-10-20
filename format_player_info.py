@@ -36,7 +36,7 @@ players['nationality'].replace(['{{USA}}','{{Flagcountry|United States|1960|size
 players['majorwins'].fillna(0, inplace=True)
 players['prowins'].fillna(0, inplace=True)
 players['pgawins'].fillna(0, inplace=True)
-players'fullname'].fillna('', inplace=True)
+players['fullname'].fillna(0, inplace=True)
 players['college'].fillna('', inplace=True)
 
 # fix height
